@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="autor" content="Amaya Gonzalo Javier" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/Calculator.ttf" />
+</head>
+<body>
+    <div class="contenedor">
+        <form  class="calculadora" name="calc">
+            <input type="text" readonly class="resultado" name="resul" />
+            <span class="boton" keydown="document.calc.resul.value" +=""> C </span>
+            <span class="boton" keydown="document.calc.resul.value" +="/"> / </span>
+            <span class="boton" keydown="document.calc.resul.value" +="4"> 4 </span>
+        </form>
+    </div>
+</body>

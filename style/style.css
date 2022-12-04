@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Calculator;
+    src: url(Calculator.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#resultado1 {
+    height: 25%;
+    width: 100%;
+    text-align: right;
+    font-size: 15px;
+    border: none;
+    font-family: Calculator;
+    font-weight: bold;
+
+}
+#resultado2 {
+    height: 73%;
+    width: 100%;
+    text-align: right;
+    font-size: 40px;
+    border: none;
+    font-family: Calculator;
+    font-weight: bold;
+}
+#input{
+    margin: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    background-color: white;
+    height: 100px;
+    width: 90%;
+    border: 1px ;
+    
+}
+.contenedor{
+    height: 400px;
+    width: 20%;
+    display: flex;
+    flex-flow: wrap;
+    align-items:center;
+    background-color: dimgrey;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px black;
+}
+.boton-num{
+    height: 100%;
+    width: 22%;
+    border-color: black;
+    color: blue;
+    align-items: stretch;
+    padding: 3px;
+    
+    
+}
+button{
+    height: auto;
+    width: 100%;
+    margin: 3px;
+    font-size: 28px;
+    color: white;
+    padding: 3px;
+}
+.btn-op{
+    background-color: rgb(139, 18, 18);
+    border-color: rgb(139, 18, 18);
+}
+.btn-reset{
+    background-color: orangered;
+    border-color: orangered;
+}
+.btn-num{
+    background-color: blue;
+    border-color: blue;
+}
+#btn-igual{
+    background-color: rgba(5, 98, 5, 0.935);
+    border-color: rgba(5, 98, 5, 0.935);
+}
+.boton-oper{
+    height: 100%;
+    width: 22%;
+    border-color: black;
+}
