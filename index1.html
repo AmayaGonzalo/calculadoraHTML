@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="autor" content="Amaya Gonzalo Javier" />
@@ -8,15 +9,42 @@
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/Calculator.ttf" />
 </head>
+
 <body>
     <div class="contenedor">
-        <form  class="calculadora" name="calc">
-            <input type="text" readonly class="resultado" name="resul" />
-            <span class="boton" onclick="document.calc.resul.value += '' "> C </span>
-            <span class="boton" keydown="document.calc.resul.value +='7' "> 7 </span>
-            <span class="boton" keydown="document.calc.resul.value" +="4"> 4 </span>
-            <span class="boton" keydown="document.calc.resul.value" +="1"> 1 </span>
-            <span class="boton" keydown="document.calc.resul.value" +="0"> 0 </span>
-        </form>
+        <div id="input">
+            <input id="resultado2" disabled>
+        </div>
+        <div class="boton-num">
+            <button id="btn-CE" class="btn-reset">CE</button>
+            <button class="btn-num">7</button>
+            <button class="btn-num">4</button>
+            <button class="btn-num">1</button>
+            <button class="btn-num">0</button>
+        </div>
+        <div class="boton-num">
+            <button id="btn-C" class="btn-reset">C</button>
+            <button class="btn-num">8</button>
+            <button class="btn-num">5</button>
+            <button class="btn-num">2</button>
+            <button class="btn-num">.</button>
+        </div>
+        <div class="boton-num">
+            <button id="btn-Op+-" class="btn-op">&plusmn;</button>
+            <button class="btn-num">9</button>
+            <button class="btn-num">6</button>
+            <button class="btn-num">3</button>
+            <button id="btn-igual">=</button>
+        </div>
+        <div class="boton-oper">
+            <button class="btn-op">%</button>
+            <button class="btn-op">/</button>
+            <button class="btn-op">x</button>
+            <button class="btn-op">-</button>
+            <button class="btn-op">+</button>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
+
+</html>
