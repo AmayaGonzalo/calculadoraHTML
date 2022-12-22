@@ -1,7 +1,6 @@
 @font-face {
     font-family: Calculator;
-    src: url(Calculator.ttf);
-    color: black;
+    src: url(Calculator.ttf);   
 }
 
 body {
@@ -25,7 +24,7 @@ body {
     border: none;
     font-family: Calculator;
     font-weight: bold;
-
+    
 }
 #resultado2 {
     height: 90%;
@@ -82,6 +81,18 @@ button{
 .btn-reset{
     background-color: orangered;
     border-color: orangered;
+}#btnPunto{
+    background-color: blue;
+    border-color: blue;
+}
+#btn-num0{
+    background-color: blue;
+    border-color: blue;
+}
+#btnMas{
+    background-color: rgb(139, 18, 18);
+    border-color: rgb(139, 18, 18);
+    height: 90px; 
 }
 .btn-num{
     background-color: blue;
